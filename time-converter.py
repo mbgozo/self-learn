@@ -11,8 +11,10 @@ def convert_time(minutes):
     #Here floor division is used to get the number of hours from the user's input
     hour = minutes // 60
     if minutes >= 60:
-        return print(f"The given {minutes} minutes is equivalent to {hour}hrs, {remaining_time}mins")
+        result = f"The given {minutes} minutes is equivalent to {hour}hrs, {remaining_time}mins"
+        return result
     else:
-        return print(f"The given {minutes} mins does not make an hour")
+        result = f"The given {minutes} mins does not make an hour"
+        return result
 
-convert_time(minutes)
+print(convert_time(minutes))
