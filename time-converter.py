@@ -16,5 +16,4 @@ def convert_time():
     hour = minutes // 60
     return  f"The given {minutes} minutes is equivalent to {hour}hrs, {remaining_time}mins"
 
-
 print(convert_time())
