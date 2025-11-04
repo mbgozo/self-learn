@@ -4,7 +4,7 @@
 # This must be done using a function and without using any lists.
 
 
-def convert_time(minutes):
+def convert_time():
     #Receives data from user
     minutes = int(input("Enter your total number of minutes for conversion: "))
 
@@ -15,4 +15,4 @@ def convert_time(minutes):
     result = f"The given {minutes} minutes is equivalent to {hour}hrs, {remaining_time}mins"
     return result
 
-print(convert_time(minutes))
+print(convert_time())
