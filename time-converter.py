@@ -3,9 +3,11 @@
 # equivalent number of hours and remaining minutes.
 # This must be done using a function and without using any lists.
 
-minutes = int(input("Enter your total number of minutes for conversion: "))
 
 def convert_time(minutes):
+    #Receives data from user
+    minutes = int(input("Enter your total number of minutes for conversion: "))
+
     #Here modulo is used to deduce the remaining minutes left from the user's input
     remaining_time = minutes % 60 
     #Here floor division is used to get the number of hours from the user's input
