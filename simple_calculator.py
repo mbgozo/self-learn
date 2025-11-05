@@ -6,6 +6,7 @@
 # If the second number is zero and the operation is division, return an error message.
 # Return the final result string to be printed.
 
+#New Branch for Pushing a new update, Exponent calculation
 def simple_calculator():
     a,b,c = input("Enter two numbers for mathematical computation and add your operator: (Eg 2 3 +) ").split()
     A = int(a)
@@ -21,5 +22,7 @@ def simple_calculator():
             return f"Error: Cant perform Arithmetics because number is 0"
         else:
             return f"{A} / {B} is {A / B}"
+    elif c == "**":
+            return f"{A} ** {B} is {A ** B}"
 
 print(simple_calculator())
