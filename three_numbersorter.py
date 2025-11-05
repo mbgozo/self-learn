@@ -8,12 +8,12 @@ def three_numbersorter():
     c = int(c)
     mins = a
     maxs = a
-    if a < b:
+    if maxs < b:
         maxs = b
     if maxs < c:
         maxs = c
 
-    if a > b:
+    if mins > b:
         mins = b
     if mins > c:
         mins = c
