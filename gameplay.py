@@ -54,12 +54,12 @@ guess = int(input("Guess the number: "))
 
 
 match secret_number:
-    case secret_number if guess > secret_number:
-        print("Oops, your guess is a bit high. Try again!")
-    case secret_number if guess < secret_number:
-        print("Nope, your guess is a bit low. Give it another shot!")
-    case secret_number:
+    case n if n ==secret_number:
         print('Congratulations, you guessed it!')
+    case n if guess > secret_number:
+        print("Oops, your guess is a bit high. Try again!")
+    case n if guess < secret_number:
+        print("Nope, your guess is a bit low. Give it another shot!")
 
 
 
