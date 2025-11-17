@@ -1,22 +1,3 @@
-# import random
-# secret_number = random.randint(1, 10)
-# guess = int(input("Enter a random number: "))
-# match secret_number:
-#      case secret_number if guess == secret_number:
-#          print("Congratulations, you guessed it!")
-#     #case secret_number if  guess > secret_number:
-#         #print("")
-# # the variable in the match statement == the case pattern
-# my_var = 'a'
-# x = 10
-
-# match my_var:
-#     case 'a' if x > 5:
-#         print('a')
-#     case 'b':
-#         print("b")
-
-
 # Challenge
 # Let’s create a fun game using Match Case statements! In this game, the user tries to guess a secret number chosen by the program.
 
@@ -59,36 +40,3 @@ match secret_number:
         print("Oops, your guess is a bit high. Try again!")
     case n if guess < secret_number:
         print("Nope, your guess is a bit low. Give it another shot!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import random
-# secret_number = random.randint(1, 10)
-# guess = int(input("Enter a random number: "))
-
-# match guess:
-#     case n if n == secret_number:
-#         print("Congratulations, you guessed it right")
-#     case n if n > secret_number:
-#         print("Oops, your guess is a bit high. Try again")
-#     case n if n < secret_number:
-#         print("Nope, your guess is a bit low. Give it another shot!")
