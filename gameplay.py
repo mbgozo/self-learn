@@ -49,12 +49,11 @@
 
 import random
 secret_number = random.randint(1, 10)
-print(secret_number)
 guess = int(input("Guess the number: "))
 
 
 match secret_number:
-    case n if n ==secret_number:
+    case n if n == secret_number:
         print('Congratulations, you guessed it!')
     case n if guess > secret_number:
         print("Oops, your guess is a bit high. Try again!")
