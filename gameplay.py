@@ -14,7 +14,6 @@
 # Store this in a variable called guess.
 # Match the guess:Use a Match Case statement to compare 
 # the user’s guess with the secret number:
-
 # If the guess is correct, 
 # display a message like “Congratulations, you guessed it!”
 # If the guess is too high, display a message like
