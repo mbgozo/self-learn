@@ -10,6 +10,6 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-     if x != 0: return x / y
+     if y != 0: return x / y
      else:
          return "Can't Perform this arithmetic"
